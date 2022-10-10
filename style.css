@@ -1,0 +1,251 @@
+/* https://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: 100%;
+    /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*End CSS Reset*/
+
+@font-face {
+    font-family: 'pt-f4';
+    src: url('pt-f4-2-100-webfont.woff2') format('woff2'),
+        url('pt-f4-2-100-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pt-f4-r';
+    src: url('pt-f4-2-r-webfont.woff2') format('woff2'),
+        url('pt-f4-2-r-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --color-primary: #80d6ff;
+    --color-secondary: white;
+    --color-tertiary: #677494;
+}
+
+
+/*text*/
+
+html {
+    background-color: var(--color-primary);
+}
+
+body {
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'pt-f4', sans-serif;
+    color: var(--color-secondary);
+    line-height: 1.4em;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+a {
+    color: var(--color-tertiary);
+    text-decoration: none;
+    /* padding-bottom: 1px; */
+    /* border-bottom: 2px solid var(--color-secondary); */
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+#site-container {
+    margin: 0px;
+}
+
+#vcenter {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.content {
+    float: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+img {
+    image-rendering: optimizeSpeed;
+    /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;
+    /* Firefox                        */
+    image-rendering: -o-crisp-edges;
+    /* Opera                          */
+    image-rendering: -webkit-optimize-contrast;
+    /* Chrome (and eventually Safari) */
+    image-rendering: pixelated;
+    /* Universal support since 2021   */
+    image-rendering: optimize-contrast;
+    /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+#logo {
+    width: 50%;
+}
+
+/*responsive stuff*/
+
+
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --color-primary: white;
+        --color-secondary: black;
+    }
+} */
+
+
+/*screen size*/
+
+@media screen and (max-width: 500px) {
+    #logo {
+        width: 100%;
+    }
+}
