@@ -225,7 +225,7 @@ img {
 }
 
 #logo {
-    width: 50vw;
+    width: 40vw;
 }
 
 /*responsive stuff*/
@@ -243,6 +243,6 @@ img {
 
 @media screen and (max-width: 500px) {
     #logo {
-        width: 100%;
+        width: 100vw;
     }
 }
