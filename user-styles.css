@@ -22,7 +22,7 @@
     /* color of the whole page */
     --color-background: #80d6ff;
     /* color of text elements */
-    --color-foreground: white;
+    --color-foreground: #697391;
 }
 
 /* these are settings for all text */
@@ -44,6 +44,12 @@ body {
 /* this is the style for the intro text */
 #intro-text p {
     font-size: 18pt;
+}
+
+/* in case you would like to redo the styles for all links */
+#intro-text a, #intro-text a:visited, #intro-text a:hover, #intro-text a:focus {
+    text-decoration: none;
+    color: white;
 }
 
 /* this will show up on custom pages */

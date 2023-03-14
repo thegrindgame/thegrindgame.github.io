@@ -31,6 +31,9 @@ vertical-links: true
 # adding the parameter new-tab and setting it to true will open the link in a new browser tab
 links:
 
+- title: Get updates via email!
+  url: subscribe  
+
 - title: Twitter
   url: http://twitter.com/thegrindgame
   new-tab: true
@@ -38,6 +41,7 @@ links:
 - title: Instagram
   url: http://instagram.com/thecoffeeshopgame
   new-tab: true
-  
+
+
 - title: Inquiries
   url: mailto:hi@thegrindgame.com
