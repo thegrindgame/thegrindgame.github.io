@@ -31,20 +31,13 @@ vertical-links: true
 # adding the parameter new-tab and setting it to true will open the link in a new browser tab
 links:
 
-- title: Spotify
-  url: https://open.spotify.com/artist/6TFOalvhHRXh8JmQTVSoyY?si=by2Uv4_pRSGLL92wMk5K3g
-  new-tab: true
-
 - title: Twitter
-  url: http://twitter.com/pedestriantac
+  url: http://twitter.com/thegrindgame
   new-tab: true
-  
-- title: Instagram
-  url: http://instagram.com/pedestriantactics
-  new-tab: true
-  
-- title: Email
-  url: mailto:hi@pedestriantactics.com
 
-- title: Custom page
-  url: user-custom-page
+- title: Instagram
+  url: http://instagram.com/thecoffeeshopgame
+  new-tab: true
+  
+- title: Inquiries
+  url: mailto:hi@thegrindgame.com
